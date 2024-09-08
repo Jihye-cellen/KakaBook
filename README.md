@@ -8,11 +8,11 @@ Naver API와 달리, Kakao API는 책 검색 기능에 특화되어 있습니다
 
 React, Node.js, Kakao API를 활용하여 쇼핑몰을 구축하며, 웹 개발에 대한 이해도를 높이기 위한 개인 프로젝트입니다. 관리자 페이지와 사용자 페이지의 설계와 구현을 통해 전체 시스템의 흐름을 깊이 있게 이해하고자 했습니다.
 
-![021](https://github.com/user-attachments/assets/cf11fc43-0f36-47fe-9dab-1509bf553871)
-![022](https://github.com/user-attachments/assets/495a7b63-0f53-438a-92fa-541b6ccf3000)
-![023](https://github.com/user-attachments/assets/e4e945d6-76b1-46a1-9525-4bb5ede99683)
-![024](https://github.com/user-attachments/assets/d3803ab9-d9ac-4f7d-8eed-bc77bfaed46d)
-![025](https://github.com/user-attachments/assets/a7b9a9da-b798-49ec-aed4-0c32f77b2ff9)
+![021](https://github.com/user-attachments/assets/9196a925-1837-4e29-ab41-6a935b24f18b)
+![022](https://github.com/user-attachments/assets/fb5e3e94-a594-4345-98aa-a2340f5c01b1)
+![023](https://github.com/user-attachments/assets/d8594d6d-7522-4451-92f8-c597d211f998)
+![024](https://github.com/user-attachments/assets/f946d971-9c5a-4401-accd-5db260eb068f)
+![025](https://github.com/user-attachments/assets/f4739655-8c52-4ca2-8fe6-d1311ada8c78)
 
 
 ### 목표
@@ -45,11 +45,17 @@ Kakao API를 활용한 실제 서비스 개발 경험 축적
 
 - 로그인(회원가입, 아이디중복, 비밀번호변경)
 - 사용자 페이지(쇼핑몰 메인 페이지, 상품 바로 구매, 장바구니, 선택 주문하기, 좋아요 기능, 상품 리뷰)
-- 관리자 페이지(Naver API를 활용한 쇼핑하기 API이용, 상품 목록 관리, 상품검색 기능)
+- 관리자 페이지(Kakao API를 활용한 쇼핑하기 API이용, 상품 목록 관리, 상품검색 기능)
 - 게시판(전체 게시판 CRUD, 댓글 기능)
+
+## 어려웠던 점/해결방안
+
+| 어려웠던 점  | 해결방안 |
+| --- | --- |
+| 책에 대한 이미지 수정 | API에서 제공되는 이미지는 thumbnail이었기 때문에 해상도가 낮음. 책 정보 수정 시, 이미지를 직접 넣어주는 방식을 선택하여 구성하고, 데이터베이스 저장되게끔 구성  |
+| 모달 창 구성(컴포넌트 기반 이해) | 모달 창에 컴포넌트를 마운트하면서 props를 통해 전달되는 함수를 인식하지 못해, 컴포넌트 내부의 상태 업데이트 불가. 부모 컴포넌트에서 자식 컴포넌트로 직접 변수를 전달하여 데이터 바인딩을 수행. |
 
 ## 회고
 
-- 쇼핑몰에 대한 이해도가 향상되었습니다.
-- React에 대한 이해도가 더욱 깊어졌습니다.
-- 다른 언어들도 형식만 조금씩 다를 뿐, 기본적인 구성은 동일하다는 것을 알게 되었습니다.
+- React의 컴포넌트 기반 개발에 대한 이해도를 심화시켰습니다. 재사용 가능한 컴포넌트를 만들고 관리하는 방법을 익혔습니다.
+- 다양한 프로그래밍 언어를 경험하며, 문법은 다르지만 기본적인 쇼핑몰 체계는 공통된다는 것을 확인했으며, React 개발에 적용하며 더욱 유연하고 효율적인 코드를 작성할 수 있었습니다.
