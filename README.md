@@ -3,16 +3,28 @@
 React와 Node.js 학습 후, 실제 서비스 개발 경험을 쌓고자 Kakao API를 활용하여 책 쇼핑몰을 제작했습니다. 
 
 Naver API와 달리, Kakao API는 책 검색 기능에 특화되어 있습니다. 이에 Kakao API의 책 검색 기능만으로 쇼핑몰의 핵심 기능을 얼마나 구현할 수 있는지를 중점적으로 탐구하고, 책 쇼핑몰의 가능성과 한계를 확인하고자 했습니다.
+<br>
+<br>
 
 ## 프로젝트 요약 설명
 
 React, Node.js, Kakao API를 활용하여 쇼핑몰을 구축하며, 웹 개발에 대한 이해도를 높이기 위한 개인 프로젝트입니다. 관리자 페이지와 사용자 페이지의 설계와 구현을 통해 전체 시스템의 흐름을 깊이 있게 이해하고자 했습니다.
+<br>
+<br>
 
-![021](https://github.com/user-attachments/assets/9196a925-1837-4e29-ab41-6a935b24f18b)
-![022](https://github.com/user-attachments/assets/fb5e3e94-a594-4345-98aa-a2340f5c01b1)
-![023](https://github.com/user-attachments/assets/d8594d6d-7522-4451-92f8-c597d211f998)
-![024](https://github.com/user-attachments/assets/f946d971-9c5a-4401-accd-5db260eb068f)
-![025](https://github.com/user-attachments/assets/f4739655-8c52-4ca2-8fe6-d1311ada8c78)
+## 프로젝트 설명
+
+<div>[ERD]</div>
+
+
+![023](https://github.com/user-attachments/assets/0d173350-4099-411c-9eb9-50c1592c182a)
+![024](https://github.com/user-attachments/assets/8623c334-8b64-4656-bfcc-8be864a90051)
+![025](https://github.com/user-attachments/assets/43bfe961-5c96-47b4-bca6-05fea69d28dc)
+![026](https://github.com/user-attachments/assets/b84796f1-4aa7-4735-9cf7-d2b8063a9a2d)
+![027](https://github.com/user-attachments/assets/d2ffc52a-86b1-45a6-9a0d-91e872bc8a9f)
+
+
+
 
 
 ### 목표
