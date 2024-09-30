@@ -8,15 +8,13 @@ Naver API와 달리, Kakao API는 책 검색 기능에 특화되어 있습니다
 
 ## 프로젝트 요약 설명
 
-React, Node.js, Kakao API를 활용하여 쇼핑몰을 구축하며, 웹 개발에 대한 이해도를 높이기 위한 개인 프로젝트입니다. 관리자 페이지와 사용자 페이지의 설계와 구현을 통해 전체 시스템의 흐름을 깊이 있게 이해하고자 했습니다.
+책의 상세 설명과 구매자의 리뷰를 자세히 확인할 수 있으며, 도서 구매에 최적화된 React/Node.js 기반 쇼핑몰
 <br>
 <br>
 
 ## 프로젝트 설명
 
-<div>[ERD]</div>
-
-
+![KERD](https://github.com/user-attachments/assets/39d53d77-44b7-489a-8a5b-32c54e4901c5)
 ![023](https://github.com/user-attachments/assets/0d173350-4099-411c-9eb9-50c1592c182a)
 ![024](https://github.com/user-attachments/assets/8623c334-8b64-4656-bfcc-8be864a90051)
 ![025](https://github.com/user-attachments/assets/43bfe961-5c96-47b4-bca6-05fea69d28dc)
@@ -24,8 +22,8 @@ React, Node.js, Kakao API를 활용하여 쇼핑몰을 구축하며, 웹 개발�
 ![027](https://github.com/user-attachments/assets/d2ffc52a-86b1-45a6-9a0d-91e872bc8a9f)
 
 
-
-
+<br>
+<br>
 
 ### 목표
 
@@ -35,11 +33,15 @@ Kakao API를 활용한 실제 서비스 개발 경험 축적
 
 관리자 및 사용자 페이지 설계 및 구현
 
+<br>
+
 ### 주요 제공 서비스
 
 - 책 관련 정보 및 구매, 좋아요 기능, 장바구니, 책 리뷰
 - 책 상품 정보 검색 및 상품목록 구성, 주문관리 (관리자용 페이지)
 - 게시판, 댓글
+
+<br>
 
 ## 기술스택
 
